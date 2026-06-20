@@ -35,8 +35,11 @@ favourability flags the ideas needing the most mitigation.
 ## 📦 Dataset
 [`data/startup_swot_pestle_data.csv`](data/startup_swot_pestle_data.csv) — **20 fields, 108 records**.
 
-## 📈 Dashboard Features (interactive, single landscape page)
-An **interactive Excel dashboard** built on native **PivotTables, PivotCharts, and Slicers**, laid out on one landscape page that fits a single screenshot:
+## 📊 Dashboard
+
+![Dashboard Screenshot](docs/screenshots/dashboard_screenshot.png)
+
+An **interactive Excel dashboard** built on native **PivotTables, PivotCharts, and Slicers**, laid out on one landscape page:
 - **Slicers (left rail):** **Industry, Risk Level, Region** — click any value and **every chart and KPI re-filters instantly** (all four PivotCharts and the KPI cards share one PivotCache).
 - **KPI band (top):** Avg Viability, Avg Growth Potential, High-Risk %, Avg Opportunity Score, Avg Investment Score — live `GETPIVOTDATA` cards that update with the slicers.
 - **PivotCharts (2×2):** PESTLE Impact Profile (6-factor), Growth Potential by Industry, Risk-Level Distribution, Competitive Intensity by Industry.
